@@ -1,7 +1,20 @@
-== ABDKMath64x64
+
+:url-project: https://sambacha.github.io/gasevo-docs
+:url-docs:  https://sambacha.github.io/gasevo-docs
+:url-org: https://sambacha.github.io/gasevo-docs
+:public-key: /gpg/6F6EB43E.asc
+:active-key: {url-group}{public-key}
+:docbook:
+
+:toc: 
+
+= ABDKMath64x64
 
 ____
+Library from: link:https://github.com/abdk-consulting/abdk-libraries-solidity[ABDK Consulting]
 ____
+
+
 
 ....
 ....
