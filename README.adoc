@@ -1,4 +1,13 @@
-== GasEVO Documentation
+
+:url-project: https://sambacha.github.io/gasevo-docs
+:url-docs:  https://sambacha.github.io/gasevo-docs
+:url-org: https://sambacha.github.io/gasevo-docs
+:public-key: /gpg/6F6EB43E.asc
+:active-key: {url-group}{public-key}
+:docbook:
+
+:toc: 
+= GasEVO Documentation
 
 ____
 Release version 1.0.7
@@ -7,9 +16,13 @@ ____
 === Documentation
 
 link:docs/ABDKMath64x64.md[ABDKMath64x64] link:docs/GasEVO.md[GasEVO]
+[%hardbreaks]
 link:docs/TestableGasEVO.md[TestableGasEVO]
+[%hardbreaks]
 link:docs/TestableGasEVOToken.md[TestableGasEVOToken]
+[%hardbreaks]
 link:docs/DebugHelper.md[DebugHelper]
+[%hardbreaks]
 link:docs/_TokenVault.md[_TokenVault]
 
 === Notes
