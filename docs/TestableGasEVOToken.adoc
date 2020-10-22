@@ -1,4 +1,14 @@
-== TestableGasEVOToken
+
+:url-project: https://sambacha.github.io/gasevo-docs
+:url-docs:  https://sambacha.github.io/gasevo-docs
+:url-org: https://sambacha.github.io/gasevo-docs
+:public-key: /gpg/6F6EB43E.asc
+:active-key: {url-group}{public-key}
+:docbook:
+
+:toc: 
+
+= TestableGasEVOToken
 
 ____
 ____
