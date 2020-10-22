@@ -1,15 +1,23 @@
 {
-  "name": "gasevo-docs",
+  "name": "gen-docs",
   "version": "1.0.0",
-  "description": "documentation for gasevo & evo protocol",
-  "main": "index.js",
+  "description": "",
+  "main": "index.json",
   "directories": {
-    "lib": "lib"
+    "docs": "docs"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/gasevo-docs.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sambacha/gasevo-docs/issues"
+  },
+  "homepage": "https://github.com/sambacha/gasevo-docs#readme"
 }
