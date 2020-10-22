@@ -1,0 +1,15 @@
+{
+  "name": "gasevo-docs",
+  "version": "1.0.0",
+  "description": "documentation for gasevo & evo protocol",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
