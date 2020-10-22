@@ -1,8 +1,8 @@
 [
-	"ABDKMath64x64.md",
-	"GasEVO.md",
-	"TestableGasEVO.md",
-    "TestableGasEVOToken.md",
-    "DebugHelper.md",
-	"_TokenVault.md"
+  "ABDKMath64x64.md",
+  "GasEVO.md",
+  "TestableGasEVO.md",
+  "TestableGasEVOToken.md",
+  "DebugHelper.md",
+  "_TokenVault.md"
 ]

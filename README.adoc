@@ -1,0 +1,128 @@
+== GasEVO Documentation
+
+____
+Release version 1.0.7
+____
+
+=== Documentation
+
+link:docs/ABDKMath64x64.md[ABDKMath64x64] link:docs/GasEVO.md[GasEVO]
+link:docs/TestableGasEVO.md[TestableGasEVO]
+link:docs/TestableGasEVOToken.md[TestableGasEVOToken]
+link:docs/DebugHelper.md[DebugHelper]
+link:docs/_TokenVault.md[_TokenVault]
+
+=== Notes
+
+* `_TokenVault` is not part of the protocol and is experimental only,
+not to be published into production
+
+=== Usage
+
+SDK Kit forthcoming
+
+
+=== Selected Documentation
+
+== GasEVO
+
+____
+____
+
+....
+....
+
+[[-networks]]
+=== 📡 Networks
+
+The contract has been deployed to:
+
+* *Network 4*: `0x766291bE965E6Ba5E77892Ac70034f6B264AE7ea`
+
+[[-events]]
+=== 🎟 Events
+
+==== Approval
+
+[cols="^,^,^",options="header",]
+|===
+|Name |Indexed |Type
+|owner |`true` |`address`
+|spender |`true` |`address`
+|value |`false` |`uint256`
+|===
+
+==== BoughtEvo
+
+[cols="^,^,^",options="header",]
+|===
+|Name |Indexed |Type
+|seller |`false` |`address`
+|evoAmount |`false` |`uint256`
+|ethAmount |`false` |`uint256`
+|===
+
+==== InterestOnEvo
+
+[cols="^,^,^",options="header",]
+|===
+|Name |Indexed |Type
+|sender |`false` |`address`
+|evoAmount |`false` |`uint256`
+|interest |`false` |`uint256`
+|===
+
+==== SoldEvo
+
+[cols="^,^,^",options="header",]
+|===
+|Name |Indexed |Type
+|buyer |`false` |`address`
+|evoAmount |`false` |`uint256`
+|ethAmount |`false` |`uint256`
+|===
+
+==== Transfer
+
+[cols="^,^,^",options="header",]
+|===
+|Name |Indexed |Type
+|from |`true` |`address`
+|to |`true` |`address`
+|value |`false` |`uint256`
+|===
+
+=== `DAY_IN_SECONDS`
+
+____
+👀 `view`
+____
+
+[[-returns]]
+==== → Returns
+
+[cols="^,^",options="header",]
+|===
+|Name |Type
+|Not specified |`uint256`
+|===
+
+=== `NUM_OF_RATES`
+
+____
+👀 `view`
+____
+
+[[-returns-1]]
+==== → Returns
+
+[cols="^,^",options="header",]
+|===
+|Name |Type
+|Not specified |`uint256`
+|===
+
+
+=== License
+
+SPDX: ISC
